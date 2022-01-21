@@ -1,0 +1,14 @@
+platform :ios, '11.0'
+use_frameworks!
+
+ENV['SWIFT_VERSION'] = '5'
+
+target 'CreatViewTest' do
+ 	pod 'SnapKit'
+  	pod 'Alamofire', '~> 4.9.1'
+  	pod 'Kingfisher'
+  	pod 'SwiftyJSON', '~> 4.0'
+  	pod 'AliyunOSSiOS'
+end
+
+

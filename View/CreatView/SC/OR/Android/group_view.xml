@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:layout_width="match_parent" 
+  android:layout_height="match_parent" 
+  xmlns:app="http://schemas.android.com/apk/res-auto"> 
+  <FrameLayout 
+    app:layout_constraintLeft_toLeftOf="parent" 
+    android:layout_marginLeft="8dp" 
+    app:layout_constraintTop_toTopOf="parent" 
+    android:layout_marginTop="118dp" 
+    android:layout_height="94dp"
+    android:layout_width="167dp" 
+    android:background="@drawable/cardview_lthw0_radius" 
+   > 
+  <include 
+    android:id="@+id/cardview_lthw0" 
+    layout="@layout/card_view"  /> 
+  </FrameLayout> 
+  <View 
+    android:id="@+id/bgview_lthw1"    app:layout_constraintLeft_toLeftOf="parent" 
+    android:layout_marginLeft="8dp" 
+    app:layout_constraintTop_toTopOf="parent" 
+    android:layout_marginTop="221dp" 
+    android:layout_height="77dp"
+    android:layout_width="167dp" 
+    android:background="@drawable/bgview_lthw1_radius" 
+  /> 
+  <ImageView 
+    android:id="@+id/userimage_lthw2"    app:layout_constraintLeft_toLeftOf="parent" 
+    android:layout_marginLeft="61dp" 
+    app:layout_constraintTop_toTopOf="parent" 
+    android:layout_marginTop="229dp" 
+    android:layout_height="60dp"
+    android:layout_width="60dp" 
+    android:background="@drawable/userimage_lthw2_radius" 
+  /> 
+</androidx.constraintlayout.widget.ConstraintLayout>

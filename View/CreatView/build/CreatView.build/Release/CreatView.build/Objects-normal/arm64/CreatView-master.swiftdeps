@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "985dd54e827de450d9014212710e4559"
+build_time: [1636900267, 664610000]
+inputs:
+  "/Users/haozhongliang/Downloads/Y/View/CreatView/CreatView/Name.swift": [9223372036, 854775807]
+  "/Users/haozhongliang/Downloads/Y/View/CreatView/CreatView/main.swift": [9223372036, 854775807]
+  "/Users/haozhongliang/Downloads/Y/View/CreatView/CreatView/func.swift": [9223372036, 854775807]
